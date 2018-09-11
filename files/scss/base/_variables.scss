@@ -14,6 +14,12 @@
 }
 
 
+.max_width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 /********* BOOTSTRAP MEDIA-QUERY MIXINS ********* Media Breakpoint  DUBO: down, up, between, only ************
 
 @include media-breakpoint-only(xs) {}  ||  @media (max-width: 575px) {}
