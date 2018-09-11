@@ -123,6 +123,16 @@ header {
         justify-content: space-between;
         height: 100%;
 
+        &__lhs {
+            a{
+                font-family: "merriweather sans";
+                font-size: 13px;
+                margin-right: 35px;
+                color: #747474;
+                text-transform: uppercase;
+            }
+        }
+
         &__rhs {
             display: flex;
 
