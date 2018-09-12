@@ -3,7 +3,8 @@
 @import 'mixins/breakpoints';
 
 body {
-    background-color: #f8f8f8; //overflow-y: hidden;
+    //background-color: #f8f8f8; //overflow-y: hidden;
+    background-color: #f2f2f2;
     font-family: "open sans";
 }
 
@@ -177,7 +178,7 @@ button {
 
 /*** Carousel ***/
 .carousel_div {
-    background-color: #666;
+    background-color: #fff;
     height: 500px;
 }
 /*** Carousel ***/
@@ -199,9 +200,10 @@ button {
             //background-color: #fff;
 
             .article_large {
-                height: 600px;
+                height: 650px;
                 background-color: #fff;
                 margin-bottom: 30px;
+               
             }
 
             .article_small_container {
@@ -221,9 +223,8 @@ button {
             height: 500px;
 
             .about_div, .connect_div, .featured_div {
-                height: 400px;
                 background-color: #fff;
-                margin-bottom: 30px;
+                margin-bottom: 15px;
                 padding: 25px 20px;
 
                 .rhs_title {
@@ -232,11 +233,50 @@ button {
                     font-size: 16px;
                     font-weight: 600;
                     text-align: center;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    margin-top: 10px;
+                    color: #747474;
+                    font-family: "open sans";
+                    font-size: 14px;
+                    line-height: 1.75em;
+                    margin-bottom: 0px;
+                }
+            }
+
+            .about_div {
+                height: auto;
+                img {
+                    background-color: #aaa;
+                    height: 200px;
+                    width: 100%;
+                    display: block;
                 }
             }
 
             .connect_div {
-                height: 140px;
+                height: 130px;
+
+                .social_icons {
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 300px;
+                    margin: 30px auto 0px;
+                    
+                    i {
+                        display: inline-block;
+                        font-size: 20px;
+                        color: #888;
+                        transition: all 0.3s ease;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #aaa;
+                        }
+                    }
+                }
             }
 
             .featured_div {
@@ -246,3 +286,12 @@ button {
     }
 }
 /*** Body Content ***/
+
+
+/*** Footer ***/
+#footer {
+    margin-top: 45px;
+    height: 400px;
+    background-color: #fff;
+}
+/*** Footer ***/
