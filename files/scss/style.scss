@@ -111,11 +111,13 @@ button {
 /* ANIMATIONS  */
 
 /*** Header ***/
-header {
+#header {
     height: 70px;
     background-color: #fff;
     //box-shadow: rgba(0,0,0,0.1) 0px 0px 40px 0px;
     box-shadow: rgba(0,0,0,0.1) 0px 0px 15px 0px;
+    position: fixed;
+    z-index: 1000;
 
     .header_nav {
         display: flex;
@@ -123,21 +125,31 @@ header {
         justify-content: space-between;
         height: 100%;
 
-        &__lhs {
+        #primary-menu {
+            margin-bottom: 0px;
+            padding-left: 0px;
+            li {
+                list-style-type: none;
+                display: inline-block;
+            }
             a{
                 font-family: "merriweather sans";
                 font-size: 13px;
-                margin-right: 35px;
+                margin: 0px 17.5px;
                 color: #747474;
                 text-transform: uppercase;
             }
+        }
+
+        &__lhs {
+            
         }
 
         &__rhs {
             display: flex;
 
             i{
-                padding: 0px 10px;
+                padding: 0px 15px;
                 color: #A2A2A2;
             }
             .social_div {
@@ -155,8 +167,82 @@ header {
     align-items: center;
     justify-content: center;
     padding: 45px 0px;
+    margin-top: 70px;
     img {
         width: 150px;
     }
 }
 /*** Logo ***/
+
+
+/*** Carousel ***/
+.carousel_div {
+    background-color: #666;
+    height: 500px;
+}
+/*** Carousel ***/
+
+
+/*** Body Content ***/
+.body_content {
+    margin-top: 30px;
+    &__lhs {
+        margin-bottom: 30px;
+        padding-right: 5px;
+
+        @include media-breakpoint-down(md) {
+            padding-right: 15px;
+        }
+
+        &__container {
+            width: 100%;
+            //background-color: #fff;
+
+            .article_large {
+                height: 600px;
+                background-color: #fff;
+                margin-bottom: 30px;
+            }
+
+            .article_small_container {
+                .article_small {
+                    background-color: #fff;
+                    height: 500px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    &__rhs {
+
+        &__container {
+            width: 100%;
+            height: 500px;
+
+            .about_div, .connect_div, .featured_div {
+                height: 400px;
+                background-color: #fff;
+                margin-bottom: 30px;
+                padding: 25px 20px;
+
+                .rhs_title {
+                    font-family: montserrat;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+            }
+
+            .connect_div {
+                height: 140px;
+            }
+
+            .featured_div {
+                height: 500px;
+            }
+        }
+    }
+}
+/*** Body Content ***/
