@@ -178,8 +178,68 @@ button {
 
 /*** Carousel ***/
 .carousel_div {
-    background-color: #fff;
-    height: 500px;
+    //background-color: #fff;
+    //height: 500px;
+
+    .slider {
+        & > div {
+            height: 400px;
+            background-color: #fff;
+        }
+        //margin-bottom: 5px;
+
+        img {
+            min-height: 400px;
+            max-height: 400px;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .slider-nav-thumbnails {
+        .slide_div {
+            height: 100px;
+            background-color: #fff;
+            padding: 15px;
+            cursor: pointer;
+            border-right: 2px solid #F44336;
+            transition: all 0.3s ease;
+
+            &:last-child {
+                border: none;
+            }
+        }
+
+        & > div {
+            .article_category {
+                color: #F44336;
+                font-family: montserrat;
+                font-size: 10px;
+                font-weight: 600;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+            .article_large_heading {
+                font-family: merriweather;
+                font-size: 14px;
+                line-height: 1.5em;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.slick-slide{
+    outline: none;
+}
+
+.slick-current {
+    background-color: #F44336 !important;
+    color: #fff;
+    .article_category {
+        color: #000 !important;
+    }
 }
 /*** Carousel ***/
 
