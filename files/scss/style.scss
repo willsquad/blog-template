@@ -212,6 +212,34 @@ button {
                     object-fit: cover;
                 }
 
+                /* iframe {
+                    width: 100%;
+                    max-height: 350px;
+                    min-height: 250px;
+                    border: none;
+                } */
+
+                .video_container {
+                    position: relative;
+                    width: 100%;
+                    max-height: 350px;
+                    //min-height: 350px;
+                    padding-bottom: 56.25%;
+
+                    iframe {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    @include media-breakpoint-up(lg) {
+                        max-height: 350px;
+                        min-height: 350px;
+                    }
+                }
+
                 .article_details {
                     width: 100%;
                     padding: 30px 25px;
@@ -278,6 +306,31 @@ button {
                     background-color: #fff;
                     //height: 500px;
                     margin-bottom: 30px;
+
+                    img {
+                        max-height: 225px;
+                        min-height: 225px;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
+                    .video_container {
+                        position: relative;
+                        width: 100%;
+                        max-height: 225px;
+                        min-height: 225px;
+                        //padding-bottom: 56.25%;
+
+                        iframe {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    
                 }
             }
         }
@@ -287,7 +340,6 @@ button {
 
         &__container {
             width: 100%;
-            height: 500px;
 
             .about_div, .connect_div, .featured_div {
                 background-color: #fff;
@@ -327,13 +379,13 @@ button {
             }
 
             .connect_div {
-                height: 130px;
+                //height: 130px;
 
                 .social_icons {
                     display: flex;
                     justify-content: space-between;
                     max-width: 300px;
-                    margin: 30px auto 0px;
+                    margin: 30px auto 15px;
                     
                     i {
                         display: inline-block;
@@ -350,7 +402,50 @@ button {
             }
 
             .featured_div {
-                height: 500px;
+                height: auto;
+
+                .featured_posts_container {
+                    .featured_post {
+                        margin-bottom: 30px;
+                        &__image {
+                            img {
+                                height: 85px;
+                                object-fit: cover;
+                                width: 100%;
+                                display: block;
+                                //object-position: top;
+
+                                @include media-breakpoint-down(md) {
+                                    height: 125px;
+                                }
+                            }
+                            margin-bottom: 15px;
+                        }
+
+                        &__text {
+                            padding-left: 0px;
+                            @include media-breakpoint-down(sm){
+                                padding-left: 15px;
+                            }
+                            .category_title {
+                                color: #FF0000;
+                                font-family: montserrat;
+                                font-size: 10px;
+                                font-weight: 600;
+                                text-transform: uppercase;
+                                margin-bottom: 10px;
+                            }
+
+                            .post_title {
+                                font-family: merriweather;
+                                font-size: 14px;
+                                line-height: 1.5em;
+                                font-weight: 700;
+                                margin-bottom: 0px;    
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -363,5 +458,8 @@ button {
     margin-top: 45px;
     height: 400px;
     background-color: #fff;
+    padding:45px 0px;
+
+    
 }
 /*** Footer ***/
