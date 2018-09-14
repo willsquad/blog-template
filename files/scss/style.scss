@@ -183,7 +183,7 @@ button {
 
     .slider {
         & > div {
-            height: 400px;
+            //height: 400px;
             background-color: #fff;
         }
         //margin-bottom: 5px;
@@ -193,6 +193,11 @@ button {
             max-height: 400px;
             object-fit: cover;
             width: 100%;
+
+            @include media-breakpoint-down(sm) {
+                min-height: 250px;
+                max-height: 250px;
+            }
         }
     }
 
@@ -204,6 +209,13 @@ button {
             cursor: pointer;
             border-right: 2px solid #F44336;
             transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @include media-breakpoint-down(sm) {
+                border: none;
+            }
 
             &:last-child {
                 border: none;
@@ -225,6 +237,7 @@ button {
                 font-size: 14px;
                 line-height: 1.5em;
                 font-weight: 700;
+                margin-bottom: 0px;
             }
         }
     }
@@ -237,8 +250,15 @@ button {
 .slick-current {
     background-color: #F44336 !important;
     color: #fff;
+    @include media-breakpoint-down(sm) {
+        background-color: #fff !important;
+        color: #000;
+    }
     .article_category {
         color: #000 !important;
+        @include media-breakpoint-down(sm) {
+            color: #F44336 !important;
+        }
     }
 }
 /*** Carousel ***/
