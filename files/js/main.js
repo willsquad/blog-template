@@ -10,6 +10,8 @@ $(document).ready(function() {
         draggable: false,
         swipe:false,
         waitForAnimate:false,
+        prevArrow: false,
+        nextArrow:false,
         responsive: [
             {
             breakpoint: 1200,
@@ -29,6 +31,8 @@ $(document).ready(function() {
         dots: false,
         focusOnSelect: true,
         waitForAnimate:false,
+        prevArrow: false,
+        nextArrow:false,
         responsive: [
             {
             breakpoint: 1200,
