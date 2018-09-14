@@ -129,16 +129,55 @@ button {
         #primary-menu {
             margin-bottom: 0px;
             padding-left: 0px;
+
+            @include media-breakpoint-down(sm){
+                position: absolute;
+                width: 100%;
+                left: 0px;
+                right: 0px;
+                top: 70px;
+                background-color: #fff;
+                border-top: 1px solid #eee;
+                display: none;
+            }
+
+
             li {
                 list-style-type: none;
                 display: inline-block;
+                //color: #747474;
+
+                @include media-breakpoint-down(sm){
+                    display: block;
+                }
             }
+            
             a{
                 font-family: "merriweather sans";
                 font-size: 13px;
                 margin: 0px 17.5px;
                 color: #747474;
                 text-transform: uppercase;
+                transition: all 0.3s ease;
+                text-decoration: none;
+
+                @include media-breakpoint-down(sm){
+                    padding: 15px 15px;
+                    width: 100%;
+                    display: block;
+                    background-color: #fff;
+                    margin-left: 0px;
+                    border-bottom: 1px solid #eee;
+                    &:hover {
+                        color: #fff;
+                        text-decoration: none;
+                        background-color: #747474;
+                        border-bottom: 1px solid #747474;
+                    }  
+                    &::last-child {
+                        border-bottom: none;
+                    }
+                }
             }
         }
 
@@ -149,6 +188,10 @@ button {
         &__rhs {
             display: flex;
 
+            @include media-breakpoint-down(sm){
+                width: 100%;
+            }
+
             i{
                 padding: 0px 15px;
                 color: #A2A2A2;
@@ -156,6 +199,16 @@ button {
             .social_div {
                 border-right: 1px solid #a2a2a2;padding-right: 10px;
                 margin-right: 10px;
+            }
+
+            .menu_icon {
+                position: absolute;
+                right: 0px;
+                cursor: pointer;
+                
+                i {
+                    font-size: 24px;
+                }
             }
         }
     }

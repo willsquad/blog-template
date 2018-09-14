@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+    $('.menu_icon').on('click', function(){
+        $('#primary-menu').slideToggle("slow");
+    });
+
     $('.slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
