@@ -707,7 +707,7 @@ button {
         &__container {
             width: 100%;
 
-            .about_div, .connect_div, .featured_div {
+            .about_div, .featured_div {
                 background-color: #fff;
                 margin-bottom: 30px;
                 padding: 25px 20px;
@@ -741,29 +741,6 @@ button {
                     margin-bottom: 15px;
                     object-fit: cover;
                     object-position: top;
-                }
-            }
-
-            .connect_div {
-                //height: 130px;
-
-                .social_icons {
-                    display: flex;
-                    justify-content: space-between;
-                    max-width: 300px;
-                    margin: 30px auto 15px;
-                    
-                    i {
-                        display: inline-block;
-                        font-size: 20px;
-                        color: #888;
-                        transition: all 0.3s ease;
-                        cursor: pointer;
-
-                        &:hover {
-                            color: #aaa;
-                        }
-                    }
                 }
             }
 
