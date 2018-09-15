@@ -40,9 +40,25 @@
 
                             <!-- About -->
                             <div class="about_div">
-                                <h3 class="rhs_title">Author</h3>
-                                <img src="files/images/about2.jpg" alt="">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequatur sapiente dolorem qui aperiam repudiandae dolor magnam soluta quae, obcaecati, molestiae nulla, sunt accusantium possimus incidunt perspiciatis. Quam, ipsa illum?</p>
+                                <h3 class="rhs_title rhs_author_title">Author</h3>
+                                <img src="files/images/profile.jpg" alt="">
+                                <h5 class="author_name">John Doe</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequatur sapiente dolorem qui aperiam repudiandae dolor magnam soluta quae.</p>
+
+                                <div class="social_icons_container">
+                                    <div class="social_icon">
+                                        <i class="fas fa-link"></i> <a href="#">author.com</a>
+                                    </div>
+                                    <div class="social_icon">
+                                        <i class="fab fa-facebook-f"></i> <a href="#">facebook.com/author</a>
+                                    </div>
+                                    <div class="social_icon">
+                                        <i class="fab fa-twitter"></i> <a href="#">twitter.com/author</a>
+                                    </div>
+                                    <div class="social_icon">
+                                        <i class="fab fa-pinterest"></i> <a href="#">pinterest.com/author</a>
+                                    </div>
+                                </div>
                             </div>
                             <!-- About -->
 
