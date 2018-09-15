@@ -46,6 +46,15 @@
                         <div class="menu_icon hidden-md-up">
                             <i class="fas fa-bars"></i>
                         </div>
+
+                        <div class="search_input_div">
+                            <div class="search_input_div__icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <form action="#" method="post">
+                                <input type="search" placeholder="Search...">
+                            </form>
+                        </div>
                     </div>
                 </div>
             </header>

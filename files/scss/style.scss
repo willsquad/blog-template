@@ -140,6 +140,7 @@ button {
                 background-color: #fff;
                 border-top: 1px solid #eee;
                 display: none;
+                z-index: 1000;
             }
 
 
@@ -193,6 +194,7 @@ button {
 
         &__rhs {
             display: flex;
+            position: relative;
 
             @include media-breakpoint-down(sm){
                 width: 100%;
@@ -214,6 +216,68 @@ button {
                 
                 i {
                     font-size: 24px;
+                }
+            }
+
+            .search_div {
+                cursor: pointer;
+                i{
+                    transition: all 0.3s ease;
+                    &:hover {
+                        color: #000;
+                    }
+                }
+
+                &.active {
+                    i {
+                        color: #000;
+                    }
+                }
+                
+            }
+
+            .search_input_div {
+                /* position: absolute;
+                top: 50px;
+                right: 0px;
+                left: 0px;
+                display: none; */
+
+                position: absolute;
+                top: 47px;
+                right: 0px;
+                left: 0px;
+                display: none;
+                padding: 10px;
+                background-color: #f2f2f2;
+
+                &__icon {
+                    /* position: absolute;
+                    top: 11px;
+                    left: 12px; */
+
+                    position: absolute;
+                    top: 21px;
+                    left: 21px;
+
+                    i {
+                        padding: 0px;
+                        color: #a2a2a2;
+                    }
+                }
+                
+                input {
+                    /* width: 100%;
+                    padding: 10px 10px 10px 40px;
+                    border: 1px solid #a2a2a2;
+                    outline: none;
+                    border-radius: 4px; */
+
+                    width: 100%;
+                    padding: 10px 10px 10px 40px;
+                    border: 1px solid #ccc;
+                    outline: none;
+                    border-radius: 4px;
                 }
             }
         }
@@ -874,7 +938,7 @@ button {
                     font-size: 15px;
                     font-weight: 600;
                     text-align: center;
-                    margin-bottom: 30px;
+                    margin-bottom: 25px;
                 }
 
                 p {
@@ -948,9 +1012,9 @@ button {
 
                 .featured_posts_container {
                     .featured_post {
-                        margin-bottom: 30px;
+                        margin-top: 30px;
                         &:last-child {
-                            margin-bottom: 0px;
+                            margin-top: 0px;
                         }
 
                         &__image {

@@ -4,6 +4,11 @@ $(document).ready(function() {
         $('#primary-menu').slideToggle("slow");
     });
 
+    $('.search_div').on('click', function(){
+        $('.search_input_div').fadeToggle();
+        $(this).toggleClass('active');
+    });
+
     $('.slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
