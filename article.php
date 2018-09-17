@@ -103,76 +103,157 @@
                 <div class="row article_small_container related_articles">
 
                     <div class="col-12 related_articles_header">
+                        <div class="prev_related_article">
+                            <i class="far fa-arrow-alt-circle-left"></i>
+                        </div>
                         <h4 class="related_articles_title">Related Articles</h4>
+                        <div class="next_related_article">
+                            <i class="far fa-arrow-alt-circle-right"></i>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-lg-4">
-                        <!-- Article Small -->
-                        <div class="article article_small">
-                            <img src="files/images/coast.jpg" alt="">
+                    <!-- Related Articles Slider Container -->
+                    <div id="related_articles_slider_container" class="">
 
-                            <div class="article_details">
-                                <h6 class="article_category"><a href="#">Category</a></h6>
-                                <h3 class="article_large_heading"><a href="article.php">Ipsm sit amet consectetur adipisicing elit</a></h3>
+                        <div class="col-12 col-lg-4">
+                            <!-- Article Small -->
+                            <div class="article article_small">
+                                <img src="files/images/coast.jpg" alt="">
 
-                                <div class="article_details__bottom">
-                                    <div class="article_details__bottom__lhs">
-                                        <a href="article.php">Read More</a>
-                                    </div>
-                                    <div class="article_details__bottom__rhs">
-                                        <i class="far fa-heart"></i> 110
+                                <div class="article_details">
+                                    <h6 class="article_category"><a href="#">Category</a></h6>
+                                    <h3 class="article_large_heading"><a href="article.php">Ipsm sit amet consectetur adipisicing elit</a></h3>
+
+                                    <div class="article_details__bottom">
+                                        <div class="article_details__bottom__lhs">
+                                            <a href="article.php">Read More</a>
+                                        </div>
+                                        <div class="article_details__bottom__rhs">
+                                            <i class="far fa-heart"></i> 110
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- Article Small -->
                         </div>
-                        <!-- Article Small -->
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <!-- Article Small -->
-                        <div class="article article_small">
-                            <img src="files/images/scotland.jpg" alt="">
-                        
-                            <div class="article_details">
-                                <h6 class="article_category"><a href="#">Category</a></h6>
-                                <h3 class="article_large_heading"><a href="article.php">Dolor sit amet consectetur adipisicing elit</a></h3>
+                        <div class="col-12 col-lg-4">
+                            <!-- Article Small -->
+                            <div class="article article_small">
+                                <img src="files/images/scotland.jpg" alt="">
+                            
+                                <div class="article_details">
+                                    <h6 class="article_category"><a href="#">Category</a></h6>
+                                    <h3 class="article_large_heading"><a href="article.php">Dolor sit amet consectetur adipisicing elit</a></h3>
 
 
-                                <div class="article_details__bottom">
-                                    <div class="article_details__bottom__lhs">
-                                        <a href="article.php">Read More</a>
-                                    </div>
-                                    <div class="article_details__bottom__rhs">
-                                        <i class="far fa-heart"></i> 85
+                                    <div class="article_details__bottom">
+                                        <div class="article_details__bottom__lhs">
+                                            <a href="article.php">Read More</a>
+                                        </div>
+                                        <div class="article_details__bottom__rhs">
+                                            <i class="far fa-heart"></i> 85
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- Article Small -->
                         </div>
-                        <!-- Article Small -->
-                    </div>
 
-                    <div class="col-12 col-lg-4">
-                        <!-- Article Small -->
-                        <div class="article article_small">
-                            <img src="files/images/featured2.jpeg" alt="">
+                        <div class="col-12 col-lg-4">
+                            <!-- Article Small -->
+                            <div class="article article_small">
+                                <img src="files/images/featured2.jpeg" alt="">
 
-                            <div class="article_details">
-                                <h6 class="article_category"><a href="#">Category</a></h6>
-                                <h3 class="article_large_heading"><a href="article.php">Ipsm sit amet consectetur adipisicing elit</a></h3>
+                                <div class="article_details">
+                                    <h6 class="article_category"><a href="#">Category</a></h6>
+                                    <h3 class="article_large_heading"><a href="article.php">Ipsm sit amet consectetur adipisicing elit</a></h3>
 
-                                <div class="article_details__bottom">
-                                    <div class="article_details__bottom__lhs">
-                                        <a href="article.php">Read More</a>
-                                    </div>
-                                    <div class="article_details__bottom__rhs">
-                                        <i class="far fa-heart"></i> 110
+                                    <div class="article_details__bottom">
+                                        <div class="article_details__bottom__lhs">
+                                            <a href="article.php">Read More</a>
+                                        </div>
+                                        <div class="article_details__bottom__rhs">
+                                            <i class="far fa-heart"></i> 110
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- Article Small -->
                         </div>
-                        <!-- Article Small -->
+
+
+                        <div class="col-12 col-lg-4">
+                            <!-- Article Small -->
+                            <div class="article article_small">
+                                <img src="files/images/coast.jpg" alt="">
+
+                                <div class="article_details">
+                                    <h6 class="article_category"><a href="#">Category</a></h6>
+                                    <h3 class="article_large_heading"><a href="article.php">Ipsm sit amet consectetur adipisicing elit</a></h3>
+
+                                    <div class="article_details__bottom">
+                                        <div class="article_details__bottom__lhs">
+                                            <a href="article.php">Read More</a>
+                                        </div>
+                                        <div class="article_details__bottom__rhs">
+                                            <i class="far fa-heart"></i> 110
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Article Small -->
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <!-- Article Small -->
+                            <div class="article article_small">
+                                <img src="files/images/scotland.jpg" alt="">
+                            
+                                <div class="article_details">
+                                    <h6 class="article_category"><a href="#">Category</a></h6>
+                                    <h3 class="article_large_heading"><a href="article.php">Dolor sit amet consectetur adipisicing elit</a></h3>
+
+
+                                    <div class="article_details__bottom">
+                                        <div class="article_details__bottom__lhs">
+                                            <a href="article.php">Read More</a>
+                                        </div>
+                                        <div class="article_details__bottom__rhs">
+                                            <i class="far fa-heart"></i> 85
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Article Small -->
+                        </div>
+
+                        <div class="col-12 col-lg-4">
+                            <!-- Article Small -->
+                            <div class="article article_small">
+                                <img src="files/images/featured2.jpeg" alt="">
+
+                                <div class="article_details">
+                                    <h6 class="article_category"><a href="#">Category</a></h6>
+                                    <h3 class="article_large_heading"><a href="article.php">Ipsm sit amet consectetur adipisicing elit</a></h3>
+
+                                    <div class="article_details__bottom">
+                                        <div class="article_details__bottom__lhs">
+                                            <a href="article.php">Read More</a>
+                                        </div>
+                                        <div class="article_details__bottom__rhs">
+                                            <i class="far fa-heart"></i> 110
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Article Small -->
+                        </div>
+
                     </div>
+                    <!-- #Related articles slider container -->
+
+
                 </div>
-                <!-- Related Articles Container -->
+                <!-- Related Articles main Container -->
 
             </div>
             <!-- Body Content -->

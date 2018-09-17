@@ -14,6 +14,15 @@
                         <div data-index="3">
                                 <img src="files/images/featured2.jpeg" alt="">
                         </div>
+                        <div data-index="4">
+                            <img src="files/images/coast.jpg" alt="">
+                        </div>
+                        <div data-index="5">
+                                <img src="files/images/scotland.jpg" alt="">
+                        </div>
+                        <div data-index="6">
+                                <img src="files/images/featured2.jpeg" alt="">
+                        </div>
                     </div>
                     
                     <!-- THUMBNAILS -->
@@ -28,6 +37,18 @@
                         </div>
                         <div class="slide_div" slide="slide_3">
                             <h6 class="article_category">Category Three</h6>
+                            <h3 class="article_large_heading">Dolor sit amet consectetur, adipisicing elit dignissimos.</h3>
+                        </div>
+                        <div class="slide_div" slide="slide_4">
+                            <h6 class="article_category">Category Four</h6>
+                            <h3 class="article_large_heading">Lorem ipsum dolor sit amet consectetur, adipisicing elit dignissimos.</h3>
+                        </div>
+                        <div class="slide_div" slide="slide_5">
+                            <h6 class="article_category">Category Five</h6>
+                            <h3 class="article_large_heading">Ipsum dolor sit amet consectetur, adipisicing elit dignissimos.</h3>
+                        </div>
+                        <div class="slide_div" slide="slide_6">
+                            <h6 class="article_category">Category Six</h6>
                             <h3 class="article_large_heading">Dolor sit amet consectetur, adipisicing elit dignissimos.</h3>
                         </div>
                     </div>
