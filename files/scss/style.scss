@@ -1051,9 +1051,15 @@ button {
             .featured_div {
                 height: auto;
 
+                .slick-dotted.slick-slider {
+                    margin-bottom: 15px;
+                }
+
                 .featured_posts_container {
+                    
                     .featured_post {
-                        margin-top: 30px;
+                        //margin-top: 30px;
+                        //margin-bottom: 10px;
                         
 
                         &__image {

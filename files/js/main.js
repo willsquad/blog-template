@@ -127,5 +127,20 @@ $(document).ready(function() {
         ]
     });
    /* Related Articles Slider Container */
+
+   /* Featured slider: Sidebar */
+   $("#featured_posts_sidebar_js").slick({
+        prevArrow: false,
+        nextArrow: false,
+        dots:true,
+        initialSlide: 0,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: false,
+        vertical: true,
+        //centerPadding: '20px',
+        autoplay: true
+    });
+   /* Featured slider: Sidebar */
      
 });
